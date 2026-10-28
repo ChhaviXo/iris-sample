@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:lab="https://labradorcms.com/ns/rss">
+  <channel>
+    <title>www.theregister.com - Articles</title>
+    <link>https://www.theregister.com</link>
+    <description>Articles from www.theregister.com</description>
+    <item>
+      <guid isPermaLink="true">https://www.theregister.com/a/9990001</guid>
+      <link>https://www.theregister.com/hpc/2026/10/01/gpu-cooling/9990001</link>
+      <pubDate>Thu, 01 Oct 2026 12:00:00 +0200</pubDate>
+      <title>High-density GPU racks push data-center cooling limits</title>
+      <description><![CDATA[Operators examine liquid cooling for AI clusters.]]></description>
+      <category>hpc</category>
+      <dc:modified>Thu, 01 Oct 2026 13:00:00 +0000</dc:modified>
+      <lab:kicker><![CDATA[HPC]]></lab:kicker>
+      <content:encoded><![CDATA[The proposed site in Frankfurt would use liquid cooling and a high-density GPU cluster.]]></content:encoded>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://www.theregister.com/a/9990002</guid>
+      <link>https://www.theregister.com/software/2026/10/02/keyboard/9990002</link>
+      <pubDate>Fri, 02 Oct 2026 12:00:00 +0200</pubDate>
+      <title>New keyboard arrives with colorful keycaps</title>
+      <description><![CDATA[A consumer technology product announcement.]]></description>
+      <category>software</category>
+      <dc:modified>Fri, 02 Oct 2026 12:30:00 +0000</dc:modified>
+      <content:encoded><![CDATA[This article is not about data-center infrastructure.]]></content:encoded>
+    </item>
+  </channel>
+</rss>

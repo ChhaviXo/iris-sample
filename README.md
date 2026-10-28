@@ -40,6 +40,18 @@ Power infrastructure, renewable energy, electrical grid capacity, market activit
 
 The NRW Data Center Business Intelligence Platform integrates multiple public infrastructure datasets into a unified PostgreSQL/PostGIS database and provides an interactive AI-powered dashboard for analyzing, comparing, and evaluating potential data center locations.
 
+## IRIS-SIG-40 assignment workflow
+
+The assignment-specific The Register ingestion workflow is isolated under
+`app/signal_ingest/`. Its implementation notes, quality report, runbook,
+validation SQL, and sample output are documented in:
+
+- [`docs/IRIS_SIG_40_analysis.md`](docs/IRIS_SIG_40_analysis.md)
+- [`docs/IRIS_SIG_40_runbook.md`](docs/IRIS_SIG_40_runbook.md)
+- [`docs/IRIS_SIG_40_quality_report.md`](docs/IRIS_SIG_40_quality_report.md)
+- [`docs/IRIS_SIG_40_validation.sql`](docs/IRIS_SIG_40_validation.sql)
+- [`docs/IRIS_SIG_40_sample_output.md`](docs/IRIS_SIG_40_sample_output.md)
+
 The platform combines:
 
 - Geospatial Intelligence
