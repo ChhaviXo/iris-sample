@@ -46,6 +46,7 @@ The assignment-specific The Register ingestion workflow is isolated under
 `app/signal_ingest/`. Its implementation notes, quality report, runbook,
 validation SQL, and sample output are documented in:
 
+- [`docs/IRIS_SIG_40_handover.md`](docs/IRIS_SIG_40_handover.md)
 - [`docs/IRIS_SIG_40_analysis.md`](docs/IRIS_SIG_40_analysis.md)
 - [`docs/IRIS_SIG_40_runbook.md`](docs/IRIS_SIG_40_runbook.md)
 - [`docs/IRIS_SIG_40_quality_report.md`](docs/IRIS_SIG_40_quality_report.md)

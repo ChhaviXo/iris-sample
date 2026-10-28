@@ -37,7 +37,9 @@ pipeline follows bounded `start` pagination.
 
 ## Database status
 
-The model and migration compile successfully, and the idempotent loader is covered by tests. A real `alembic upgrade head` and database validation run are pending until a PostgreSQL/PostGIS service is available locally.
+The model and migration were applied successfully, and the idempotent loader
+was verified against the local PostgreSQL/PostGIS service. The Python database
+validation script passed all 7 checks.
 
 ## Test status
 

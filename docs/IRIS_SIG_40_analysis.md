@@ -160,7 +160,7 @@ Additional repository changes will include:
 - Public RSS fixture: added.
 - Parser/client/normalizer/location/model/loader/pipeline tests: 22 passing.
 - Live-feed parser smoke test: 25 current entries parsed successfully.
-- Dependencies: installed only into a temporary test directory; the repository environment is not yet configured.
-- Migration has been compile-validated but not applied to a database yet.
-- Database-environment verification and final live validation: pending local
-  Docker/PostgreSQL/PostGIS availability.
+- Dependencies: declared in `pyproject.toml` and locked in `uv.lock`.
+- Migration: applied successfully to the local PostgreSQL/PostGIS service.
+- Database-environment verification and final live validation: complete.
+- Python validation: 7/7 checks passed.
